@@ -29,6 +29,5 @@ Description: NFC command line tools
 Package: neard-doc
 Section: doc
 Architecture: any
-Depends:
 Description: neard documentation
  This unofficial package contains documentation of the neard D-Bus APIs
