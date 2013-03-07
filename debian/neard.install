@@ -1,2 +1,2 @@
 etc/dbus-1/system.d/org.neard.conf
-usr/libexec/nfc/neard
+usr/lib/neard/nfc/neard
