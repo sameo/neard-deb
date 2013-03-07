@@ -1,3 +1,12 @@
+neard (0.9-1) UNRELEASED; urgency=low
+
+  * Version number updated to 0.9
+  * Adding dev and tools neard packages
+  * Removing doc package
+  * Fixing sysconfdir in rules
+
+ -- Samuel Ortiz <sameo@linux.intel.com>  Mon, 07 Mar 2013 19:18:00 +0200
+
 neard (0.8-1) UNRELEASED; urgency=low
 
   * Initial packaging setup for version 0.8
