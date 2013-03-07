@@ -25,9 +25,3 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, neard (>= 0.8)
 Description: NFC command line tools
  This package contains the nfctool command line tool and
  neard test scripts.
-
-Package: neard-doc
-Section: doc
-Architecture: any
-Description: neard documentation
- This unofficial package contains documentation of the neard D-Bus APIs
