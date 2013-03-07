@@ -9,7 +9,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: bluez
 Description: neard NFC daemon
- This unofficial package contains the neard NFC daemon
+ This package contains the neard NFC daemon
  .
  neard is an NFC system level daemon that manages NFC adapters.
  .
