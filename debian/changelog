@@ -1,3 +1,13 @@
+neard (0.9-2) UNRELEASED; urgency=low
+
+  * Moved man pages to neard-dev.manpages
+  * Fixed missing space in control
+  * Removed unofficial words from control
+  * Removed dh configure override
+  * Migrated to dh python2
+
+ -- Samuel Ortiz <sameo@linux.intel.com>  Mon, 08 Mar 2013 00:53:00 +0200
+
 neard (0.9-1) UNRELEASED; urgency=low
 
   * Version number updated to 0.9
