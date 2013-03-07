@@ -21,7 +21,6 @@ Description: neard NFC daemon
 
 Package: neard-tools
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, neard (>= 0.8)
-Description: NFC command line tools
- This package contains the nfctool command line tool and
- neard test scripts.
+Depends: ${python:Depends}, neard (>= 0.9)
+Description: neard command line tools
+ This package contains neard test scripts
