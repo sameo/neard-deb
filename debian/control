@@ -21,14 +21,14 @@ Description: neard NFC daemon
 
 Package: neard-tools
 Architecture: any
-Depends: ${python:Depends}, neard (>= 0.9)
+Depends: neard (>= 0.10)
 Description: neard command line tools
  This package contains neard test scripts
 
 Package: neard-dev
 Section: devel
 Architecture: any
-Depends: ${misc:Depends}, libglib2.0-dev (>= 2.28), libdbus-1-dev (>= 1.4)
+Depends: ${misc:Depends}, neard (>= 0.10), libglib2.0-dev (>= 2.28), libdbus-1-dev (>= 1.4)
 Description: neard development files
  This package contains header file, pkgconfig support and D-Bus API
  descriptions for developing neard plugins.
