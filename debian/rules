@@ -2,5 +2,12 @@
 %:
 	dh $@ --with python2
 
+override_dh_auto_configure:
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--enable-debug \
+		--enable-tools
+
 override_dh_auto_install:
 	make DESTDIR=$(CURDIR)/debian/tmp libexecdir=/usr/lib/neard/ install
