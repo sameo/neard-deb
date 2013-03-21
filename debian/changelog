@@ -1,3 +1,14 @@
+neard (0.10-4) UNRELEASED; urgency=low
+
+  * Enabled --disable-silent-rules from configure
+  * Fetched proper hardening flags
+  * Fixed package description as it should not start with "neard"
+  * Support cross build
+  * Added Standards-Version
+  * Fixed lintian warnings and errors
+
+ -- Samuel Ortiz <sameo@linux.intel.com>  Fri, 22 Mar 2013 00:36:00 +0200
+
 neard (0.10-3) UNRELEASED; urgency=low
 
   * Replaced source:Version with binary:Version for neard dependency
