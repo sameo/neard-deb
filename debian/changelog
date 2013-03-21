@@ -1,3 +1,13 @@
+neard (0.10-2) UNRELEASED; urgency=low
+
+  * Added nfctool and its manpage
+  * Added python dependencies to the tools package
+  * Updated copyright
+  * Use ${source:Version} for the neard dependencies
+  * Use $(MAKE) instead of make
+
+ -- Samuel Ortiz <sameo@linux.intel.com>  Mon, 21 Mar 2013 18:48:00 +0200
+
 neard (0.10-1) UNRELEASED; urgency=low
 
   * Version number updated to 0.10
