@@ -1,3 +1,12 @@
+neard (0.10-3) UNRELEASED; urgency=low
+
+  * Replaced source:Version with binary:Version for neard dependency
+  * Removed the neard dependency from the dev pckage
+  * Moved the nfctool man page to the tools package
+  * Bumped the libnl dependency to libnl-3
+
+ -- Samuel Ortiz <sameo@linux.intel.com>  Mon, 21 Mar 2013 19:38:00 +0200
+
 neard (0.10-2) UNRELEASED; urgency=low
 
   * Added nfctool and its manpage
