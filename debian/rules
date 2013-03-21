@@ -6,6 +6,7 @@ override_dh_auto_configure:
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc \
+		--disable-silent-rules \
 		--enable-debug \
 		--enable-tools
 
