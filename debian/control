@@ -21,7 +21,7 @@ Description: neard NFC daemon
 
 Package: neard-tools
 Architecture: any
-Depends: neard (>= 0.10)
+Depends: ${shlibs:Depends}, neard (>= 0.10)
 Description: neard command line tools
  This package contains neard test scripts
 

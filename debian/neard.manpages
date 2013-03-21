@@ -1,3 +1,4 @@
 debian/tmp/usr/share/man/*/neard.8
 debian/tmp/usr/share/man/*/neard.conf.5
+debian/tmp/usr/share/man/*/nfctool.1
 
