@@ -23,8 +23,8 @@ Description: Near Field Communication (NFC) daemon
 
 Package: neard-tools
 Architecture: any
-Depends: ${shlibs:Depends}, ${python:Depends}, neard (= ${binary:Version}),
-	 python-dbus
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends},
+	 neard (= ${binary:Version}), python-dbus
 Description: neard command line tools
  This package contains neard test scripts
 
