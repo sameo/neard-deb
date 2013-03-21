@@ -9,7 +9,7 @@ Package: neard
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: bluez
-Description: neard NFC daemon
+Description: Near Field Communication (NFC) daemon
  This package contains the neard NFC daemon
  .
  neard is an NFC system level daemon that manages NFC adapters.
