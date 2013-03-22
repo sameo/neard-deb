@@ -2,9 +2,12 @@ Source: neard
 Maintainer: Samuel Ortiz <sameo@linux.intel.com>
 Section: net
 Priority: optional
+Homepage: https://01.org/linux-nfc
+Vcs-Browser: https://git.kernel.org/cgit/network/nfc/neard.git/
+Vcs-Git: git://git.kernel.org/pub/scm/network/nfc/neard.git
+Standards-Version: 3.9.4
 Build-Depends: debhelper (>= 9), libglib2.0-dev (>= 2.28),
 	       libdbus-1-dev (>= 1.4), libnl-3-dev (>= 3.2), python
-Standards-Version: 3.9.4
 
 Package: neard
 Architecture: any

@@ -6,6 +6,7 @@ neard (0.10-4) UNRELEASED; urgency=low
   * Support cross build
   * Added Standards-Version
   * Fixed lintian warnings and errors
+  * Added Vcs-Browser, Vcs-Git and Homepage
 
  -- Samuel Ortiz <sameo@linux.intel.com>  Fri, 22 Mar 2013 00:36:00 +0200
 
