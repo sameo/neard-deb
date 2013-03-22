@@ -7,6 +7,8 @@ neard (0.10-4) UNRELEASED; urgency=low
   * Added Standards-Version
   * Fixed lintian warnings and errors
   * Added Vcs-Browser, Vcs-Git and Homepage
+  * Fixed grammar mistakes (Daniel Stone)
+  * Removed copyright trailing whitespaces 
 
  -- Samuel Ortiz <sameo@linux.intel.com>  Fri, 22 Mar 2013 00:36:00 +0200
 
