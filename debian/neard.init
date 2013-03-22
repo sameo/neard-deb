@@ -18,7 +18,7 @@ DESC="NFC daemon"
 
 do_start() {
 	modprobe nfc
-	start-stop-daemon --start --oknodo --exec $DAEMON -- $DAEMON_OPTS
+	start-stop-daemon --start --oknodo --quiet --exec $DAEMON -- $DAEMON_OPTS
 }
 
 do_stop() {
