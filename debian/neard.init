@@ -1,0 +1,58 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          neard
+# Required-Start:    $local_fs $syslog $remote_fs dbus
+# Required-Stop:     $local_fs $syslog $remote_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: NFC daemon
+# Description:       neard is a Near Field Communication (NFC)
+#		management daemon
+### END INIT INFO
+
+DAEMON=/usr/lib/neard/neard
+DESC="NFC daemon"
+
+. /lib/lsb/init-functions
+
+set -e
+
+do_start() {
+	modprobe nfc
+	start-stop-daemon --start --oknodo --exec $DAEMON -- $DAEMON_OPTS
+}
+
+do_stop() {
+	start-stop-daemon --stop --oknodo --quiet --exec $DAEMON
+	modprobe -r nfc
+}
+
+case "$1" in
+  start)
+	log_daemon_msg "Starting $DESC"
+	do_start
+	log_progress_msg "${DAEMON##*/}"
+	log_end_msg $?
+	;;
+  stop)
+	log_daemon_msg "Stopping $DESC"
+	do_stop
+	log_progress_msg "${DAEMON##*/}"
+	log_end_msg $?
+	;;
+  restart|force-reload)
+	$0 stop
+	sleep 1
+	$0 start
+	;;
+  status)
+	status_of_proc "$DAEMON" "$DESC" && exit 0 || exit $?
+  ;;
+  *)
+	log_success_msg "Usage: $0 {start|stop|restart|force-reload|status}" >&2
+	exit 1
+	;;
+esac
+
+exit 0
