@@ -13,23 +13,21 @@ Package: neard
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: bluez
-Description: Near Field Communication (NFC) daemon
- This package contains the neard NFC daemon
+Description: Near Field Communication (NFC) management daemon
+ neard is a system-level daemon which manages NFC adapters.
  .
- neard is an NFC system level daemon that manages NFC adapters.
- .
- neard can read and write NFC tags, and send and receive data from
- NFC peers. It supports:
-  * Types 1, 2, 3 and 4 tags reading and writing.
-  * SNEP (Simple NDEF Exchange Format) for exchanging data with NFC peers.
-  * Bluetooth NFC Handover in both selector and requester modes.
+ neard can read and write NFC tags, and exchange data with other NFC peers.
+ It supports:
+  * reading and writing of type 1, 2, 3 and 4 tags;
+  * exchanging data with NFC peers via SNEP (Simple NDEF Exchange Format);
+  * Bluetooth-NFC handover in both selector and requester modes.
 
 Package: neard-tools
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends},
 	 neard (= ${binary:Version}), python-dbus
-Description: neard command line tools
- This package contains neard test scripts
+Description: neard command-line tools
+ This package contains various scripts for testing neard.
 
 Package: neard-dev
 Section: devel
@@ -37,5 +35,5 @@ Architecture: any
 Depends: ${misc:Depends}, libglib2.0-dev (>= 2.28), libdbus-1-dev (>= 1.4)
 Suggests: neard
 Description: neard development files
- This package contains header file, pkgconfig support and D-Bus API
+ This package contains header files, pkgconfig support and D-Bus API
  descriptions for developing neard plugins.
