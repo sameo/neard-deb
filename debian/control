@@ -12,7 +12,7 @@ Build-Depends: debhelper (>= 9), libglib2.0-dev (>= 2.28),
 
 Package: neard
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, dbus
+Depends: ${shlibs:Depends}, ${misc:Depends}, dbus, kmod
 Recommends: bluez
 Description: Near Field Communication (NFC) management daemon
  neard is a system-level daemon which manages NFC adapters.
