@@ -1,4 +1,4 @@
-neard (0.10-4) UNRELEASED; urgency=low
+neard (0.10+git20130322-1) unstable; urgency=low
 
   * Enabled --disable-silent-rules from configure
   * Fetched proper hardening flags
@@ -13,7 +13,7 @@ neard (0.10-4) UNRELEASED; urgency=low
   * Added dbus to the neard Depends list
   * Added a debian.init file
 
- -- Samuel Ortiz <sameo@linux.intel.com>  Fri, 22 Mar 2013 00:36:00 +0200
+ -- Samuel Ortiz <sameo@linux.intel.com>  Fri, 22 Mar 2013 18:52:51 +0100
 
 neard (0.10-3) UNRELEASED; urgency=low
 
