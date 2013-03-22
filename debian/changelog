@@ -10,6 +10,7 @@ neard (0.10-4) UNRELEASED; urgency=low
   * Fixed grammar mistakes (Daniel Stone)
   * Removed copyright trailing whitespaces
   * Added pkg-config and libnl-genl-3-dev build depencies
+  * Added dbus to the neard Depends list
 
  -- Samuel Ortiz <sameo@linux.intel.com>  Fri, 22 Mar 2013 00:36:00 +0200
 
