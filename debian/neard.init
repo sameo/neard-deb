@@ -16,8 +16,6 @@ DESC="NFC daemon"
 
 . /lib/lsb/init-functions
 
-set -e
-
 do_start() {
 	modprobe nfc
 	start-stop-daemon --start --oknodo --exec $DAEMON -- $DAEMON_OPTS
@@ -25,7 +23,6 @@ do_start() {
 
 do_stop() {
 	start-stop-daemon --stop --oknodo --quiet --exec $DAEMON
-	modprobe -r nfc
 }
 
 case "$1" in
