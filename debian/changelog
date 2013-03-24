@@ -1,3 +1,9 @@
+neard (0.10+git20130322-2) UNRELEASED; urgency=low
+
+  * Added libnl dev dependencies to neard-dev 
+
+ -- Samuel Ortiz <sameo@linux.intel.com>  Sun, 24 Mar 2013 16:29:29 +0100
+
 neard (0.10+git20130322-1) unstable; urgency=low
 
   * Enabled --disable-silent-rules from configure
