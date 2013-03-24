@@ -1,6 +1,7 @@
 neard (0.10+git20130322-2) UNRELEASED; urgency=low
 
   * Added libnl dev dependencies to neard-dev 
+  * Added source/format file
 
  -- Samuel Ortiz <sameo@linux.intel.com>  Sun, 24 Mar 2013 16:29:29 +0100
 
