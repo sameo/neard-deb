@@ -1,3 +1,13 @@
+neard (0.10+git20130415-1) unstable; urgency=low
+
+  * New upstream snapshot:
+    - SNEP unit test fragments list handling fixed (Closes: #705386)
+    - LLCP validation server
+    - WiFi handover fixes and unit testing
+    - nfctool snap len usage fixed
+
+ -- Samuel Ortiz <sameo@linux.intel.com>  Mon, 15 Apr 2013 16:07:16 +0200
+
 neard (0.10+git20130325-1) unstable; urgency=low
 
   * Added libnl dev dependencies to neard-dev
