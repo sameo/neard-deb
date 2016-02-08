@@ -4,6 +4,7 @@ neard (0.15-0.1) UNRELEASED; urgency=medium
   * Switch debian/copyright to the machine readable format.
   * Add a debian/watch file.
   * Bump Standards-Version to 3.9.7.
+  * Fixup neard.pc file to correct pkglibdir variable.
 
  -- Guillem Jover <guillem@debian.org>  Sun, 27 Dec 2015 00:20:39 +0100
 

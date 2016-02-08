@@ -24,6 +24,9 @@ override_dh_auto_install:
 	$(MAKE) DESTDIR=$(CURDIR)/debian/tmp \
 		pkglibexecdir=/usr/lib/neard/ \
 		install
+	# Temporary workaround for broken .pc file, fixed in git master.
+	sed -i -e 's/@pkglibdir@/$${pkglibdir}/' \
+		$(CURDIR)/debian/tmp/usr/lib/pkgconfig/neard.pc
 
 override_dh_python2:
 	dh_python2 /usr/lib/neard/tools/
