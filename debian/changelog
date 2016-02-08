@@ -1,5 +1,6 @@
-neard (0.15-0.1) UNRELEASED; urgency=medium
+neard (0.15-0.1) unstable; urgency=medium
 
+  * Non-maintainer upload, with maintainer permission.
   * New upstream release. Update to 0.15.
   * Switch debian/copyright to the machine readable format.
   * Add a debian/watch file.
@@ -7,7 +8,7 @@ neard (0.15-0.1) UNRELEASED; urgency=medium
   * Fixup neard.pc file to correct pkglibdir variable.
   * Use autotools-dev dh sequence to update config.* scripts.
 
- -- Guillem Jover <guillem@debian.org>  Sun, 27 Dec 2015 00:20:39 +0100
+ -- Guillem Jover <guillem@debian.org>  Mon, 08 Feb 2016 22:15:05 +0100
 
 neard (0.11-1) unstable; urgency=low
 
