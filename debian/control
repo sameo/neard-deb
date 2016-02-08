@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9), libglib2.0-dev (>= 2.28),
 	       libnl-genl-3-dev (>= 3.2), python, pkg-config
 
 Package: neard
-Architecture: any
+Architecture: linux-any
 Depends: ${shlibs:Depends}, ${misc:Depends}, dbus, kmod
 Recommends: bluez
 Description: Near Field Communication (NFC) management daemon
@@ -24,7 +24,7 @@ Description: Near Field Communication (NFC) management daemon
   * Bluetooth-NFC handover in both selector and requester modes.
 
 Package: neard-tools
-Architecture: any
+Architecture: linux-any
 Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends},
 	 neard (= ${binary:Version}), python-dbus
 Description: neard command-line tools
@@ -32,7 +32,7 @@ Description: neard command-line tools
 
 Package: neard-dev
 Section: devel
-Architecture: any
+Architecture: linux-any
 Depends: ${misc:Depends}, libglib2.0-dev (>= 2.28), libdbus-1-dev (>= 1.4),
 	 libnl-3-dev (>= 3.2), libnl-genl-3-dev (>= 3.2)
 Suggests: neard
