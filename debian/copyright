@@ -1,36 +1,49 @@
-neard - NFC daemon for Linux
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://www.kernel.org/pub/linux/network/nfc/
+Upstream-Name: neard
+Upstream-Contact: linux-nfc@lists.01.org
 
-It was downloaded from http://www.kernel.org/pub/linux/network/nfc/
-
+Files: *
 Copyright:
-	Copyright (C) 2004-2011  Marcel Holtmann <marcel@holtmann.org>
-	Copyright (C) 2007-2008  Johannes Berg <johannes@sipsolutions.net>
-	Copyright (C) 2011       Instituto Nokia de Tecnologia
-	Copyright (C) 2011-2013  Intel Corporation
+ Copyright © 2004-2011 Marcel Holtmann <marcel@holtmann.org>
+ Copyright © 2007-2008 Johannes Berg <johannes@sipsolutions.net>
+ Copyright © 2011      Instituto Nokia de Tecnologia
+ Copyright © 2011-2013 Intel Corporation
+ Copyright © 2013      Animal Creek Technologies, Inc. All rights reserved.
+ Copyright © 2013      Mobica Limited. All rights reserved.
+ Copyright © 2014      Marvell International Ltd.
+License: GPL-2+
 
-License:
-	 include:
-		nfc_copy.h
+Files:
+ include/nfc_copy.h
+Copyright:
+ Copyright © 2011      Instituto Nokia de Tecnologia
+License: MIT
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-	Permission to use, copy, modify, and/or distribute this software for any
-	purpose with or without fee is hereby granted, provided that the above
-	copyright notice and this permission notice appear in all copies.
-
-	THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-	WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-	MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-	ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-	WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-	ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-	OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-		adapter.h device.h ndef.h plugin.h snep.h tlv.h
-		dbus.h log.h setting.h tag.h types.h
-
-		License: GPL version 2
-
-	 other:
-		License: GPL version 2
-
-On Debian GNU/Linux systems, the complete text of the GNU General Public
-2 License can be found in `/usr/share/common-licenses/GPL-2'.
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+Comment:
+ On Debian systems, the complete text of the GNU General Public License 2
+ can be found in '/usr/share/common-licenses/GPL-2'.
